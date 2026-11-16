@@ -1,0 +1,7 @@
+neuroos (0.1.0~alpha1-1) unstable; urgency=medium
+
+  * Initial standalone public alpha source; Apache-2.0 selected by owner.
+  * Portable runtime and opt-in bounded user backend; no weights or private state.
+  * Clean-system installation qualification remains pending; see VALIDATION.md.
+
+ -- NeuroOS release preparation <release@example.invalid>  Mon, 16 Nov 2026 12:00:00 +0000

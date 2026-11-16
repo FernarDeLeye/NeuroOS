@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+export PYTHONDONTWRITEBYTECODE=1
+%:
+	dh $@ --with python3
+override_dh_auto_configure:
+override_dh_auto_build:
+override_dh_auto_test:
+	python3 -m unittest discover -s packaging/tests -v
+override_dh_auto_install:
+	python3 packaging/install.py debian/neuroos
+override_dh_installsystemduser:
+	dh_installsystemduser --name=neuroos-inference --no-enable
+
+override_dh_python3:
+	dh_python3 /usr/lib/neuroos

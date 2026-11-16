@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "backend": "external",
+  "endpoint": "http://127.0.0.1:8081",
+  "model_id": "neuroos-local",
+  "model_path": "/absolute/path/model.gguf",
+  "llama_server": "",
+  "data_dir": "/absolute/private/data",
+  "memory_max_mib": 4096,
+  "threads": 4,
+  "profile": {"context": 4096, "max_tokens": 1024, "thinking": false, "request_timeout_s": 900}
+}

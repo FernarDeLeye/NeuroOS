@@ -1,0 +1,18 @@
+Source: neuroos
+Section: misc
+Priority: optional
+Maintainer: NeuroOS Developers <neuroos@localhost>
+Build-Depends: debhelper-compat (= 13), dh-python, python3
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: neuroos
+Architecture: amd64
+Depends: ${misc:Depends}, python3 (>= 3.11), bash, systemd, dbus-user-session, util-linux, procps, iproute2, libseccomp2
+Recommends: tmux
+Suggests: network-manager
+Description: local conversational Linux agent (experimental alpha)
+ Persistent local conversations and tasks, rootless isolated execution,
+ controlled publication and independent result checking. A compatible local
+ llama.cpp server and separately obtained GGUF are required. No model weights
+ or third-party inference binaries are included. No services are auto-enabled.

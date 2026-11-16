@@ -1,0 +1,35 @@
+.TH NEUROOS 1 "November 2026" "NeuroOS 0.1.0-alpha.1" "User Commands"
+.SH NAME
+neuroos \- local conversational Linux agent
+.SH SYNOPSIS
+.B neuroos
+setup | doctor [\-\-probe] | chat [\-\-plain] | feedback | backend start|stop|status
+.SH DESCRIPTION
+Runs as an ordinary user. Model weights and a compatible local llama.cpp server
+must be installed separately. No cloud inference or automatic model downloads.
+.SH COMMANDS
+.TP
+.B setup
+Interactive private user configuration. No root or global security changes.
+.TP
+.B doctor
+Check platform, dependencies, model, endpoint and rootless capabilities.
+The optional probe sends a live constrained completion to the chosen backend.
+.TP
+.B chat
+Persistent conversation; plain terminal mode is available without tmux.
+.TP
+.B feedback
+Create a local sanitized diagnostic archive for inspection. Nothing is uploaded.
+.TP
+.B backend
+Explicitly manage the optional bounded user inference service.
+.SH FILES
+User settings: XDG_CONFIG_HOME/neuroos/config.json.
+User history: XDG_STATE_HOME/neuroos, or the directory selected during setup.
+Both survive package removal; weights are never deleted by this package.
+.SH SECURITY
+Never run the agent as root. No SSH, network, boot, sudoers or global permission
+changes are made. Linger is not enabled automatically. Alpha limitations apply.
+.SH SEE ALSO
+Documentation in /usr/share/doc/neuroos.

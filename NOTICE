@@ -1,0 +1,12 @@
+NeuroOS Next
+Offline conversational Linux agent
+
+Copyright holder: [TO BE PROVIDED BY THE PROJECT OWNER]
+
+The project owner selected Apache License 2.0 for the project's own code.
+The attribution field above is intentionally unfilled; it is not an organization
+name or a copyright assignment. Complete it before the public release.
+No identities have been inferred from development Git configuration.
+
+External dependencies and model licenses are listed in THIRD_PARTY_NOTICES.md.
+No model weights, llama.cpp binaries or source, or experimental databases are bundled.

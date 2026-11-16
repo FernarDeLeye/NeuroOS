@@ -1,0 +1,19 @@
+[Unit]
+Description=NeuroOS optional bounded local inference (user-owned)
+StartLimitIntervalSec=300
+StartLimitBurst=2
+
+[Service]
+Type=exec
+ExecStart=/usr/bin/neuroos backend serve
+NoNewPrivileges=yes
+MemoryAccounting=yes
+MemoryMax=512M
+MemorySwapMax=0
+TasksMax=64
+Restart=no
+TimeoutStopSec=30
+KillMode=control-group
+
+[Install]
+WantedBy=default.target
