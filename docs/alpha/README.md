@@ -69,6 +69,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md) and
 archive: review before sharing. Nothing is uploaded automatically. Never post raw
 SQLite, chats, private paths, credentials or network identities in issues.
 
-Project-owned code: [Apache License 2.0](LICENSE). The owner attribution in
-[NOTICE](NOTICE) must be completed before publication. Third-party tools and GGUFs
+Project-owned code: [Apache License 2.0](LICENSE). Copyright 2026 DeAtH de FraG; see [NOTICE](NOTICE). Third-party tools and GGUFs
 retain their own licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

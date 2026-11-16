@@ -17,5 +17,4 @@ sandbox behavior. Discuss changes requiring new privileges before implementation
 
 Project-owned code uses Apache-2.0. Submit only code you have the right to contribute;
 retain notices for third-party material and describe its origin/license. No CLA is
-currently imposed. The owner attribution placeholder must be settled before public
-publication. No guarantee of response time or acceptance is provided.
+currently imposed. The owner-authorized copyright attribution is DeAtH de FraG. No guarantee of response time or acceptance is provided.

@@ -3,10 +3,10 @@
 Only use this standalone repository. Never set a public remote on the experimental
 checkout, push --mirror, or merge its old history. There is no remote configured.
 
-1. Review LICENSE/NOTICE and replace only the explicitly pending copyright holder
-   with the owner's authorized public attribution. Do not infer identity from Git.
-   Commit the attribution, rebuild artifacts from that commit, update the release
-   tag and rerun audit/checksums before any upload. Do not rewrite a published tag.
+1. Review LICENSE/NOTICE: copyright is 2026 DeAtH de FraG, explicitly authorized
+   by the owner. Do not infer a different identity from Git. If source changes,
+   commit, rebuild artifacts, and rerun audit/checksums before upload. Update only
+   unpublished candidate tags; do not rewrite a published tag.
 2. Complete or explicitly retain the clean-Debian qualification caveat. Inspect
    artifact manifests and audit report, source archive and .deb contents. Check
    SHA256SUMS. Do not upload the old private package or developer diagnostic bundle.

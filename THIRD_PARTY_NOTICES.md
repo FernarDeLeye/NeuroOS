@@ -2,8 +2,8 @@
 
 The distributed source/payload contains the project's Python code and documentation,
 not vendored third-party inference code, binaries, libraries or model weights. The
-project owner explicitly selected Apache-2.0 for its own code. Ownership/attribution
-is intentionally not guessed; complete NOTICE. No full copyright-provenance audit
+project owner explicitly selected Apache-2.0 for its own code. Copyright attribution is 2026 DeAtH de FraG,
+explicitly supplied by the project owner; see NOTICE. No full copyright-provenance audit
 can establish ownership merely from a secret scan or Git authorship.
 
 | External component | License / relationship | Distribution here |

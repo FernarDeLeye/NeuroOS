@@ -2,7 +2,7 @@
 
 This standalone source is derived from the portable application payload, not the
 private experimental Git history. No private database or trace is an input fixture.
-Apache-2.0 was selected by the owner. NOTICE attribution is intentionally pending.
+Apache-2.0 was selected by the owner. Copyright attribution: 2026 DeAtH de FraG, explicitly authorized by the owner.
 
 ## Checks performed during preparation
 

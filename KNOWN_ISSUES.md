@@ -2,7 +2,6 @@
 
 - Clean Debian13 apt installation, upgrade/removal and real conversational E2E on a
   second machine are not confirmed. Build/extracted-payload checks are distinct.
-- Copyright holder in NOTICE is intentionally pending owner input; fill before release.
 - CPU responses can take minutes. Context8192 is finite; long/ambiguous conversations
   and references can fail or require clarification. Other GGUF models may not obey
   tool schemas or complete goals. No general autonomous-success claim is made.

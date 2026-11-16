@@ -7,4 +7,4 @@ terminal conversation/plain/tmux, persistent tasks, rootless execution, controll
 publication, independent verification, bounded repair and structured object binding.
 Apache-2.0 selected for own code; separate notices. No developer history/state or
 weights bundled. Public upload is not performed by preparation. Clean-system apt
-qualification and owner attribution remain release checklist items.
+qualification remains a release checklist item. Copyright attribution: DeAtH de FraG.

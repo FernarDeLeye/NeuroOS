@@ -10,6 +10,6 @@ but clean apt install/upgrade/removal and a real second-machine dialogue are not
 confirmed. See VALIDATION.md/report. Do not use for critical system administration.
 CPU responses may take minutes; models/references and arbitrary goals can fail.
 
-NOTICE's owner-attribution field must be completed before publication. No public
+Copyright 2026 DeAtH de FraG, explicitly authorized by the project owner. No public
 upload or visibility change is authorized by creating this candidate. Please read
 INSTALL, KNOWN_ISSUES, SECURITY and report failures with sanitized synthetic examples.

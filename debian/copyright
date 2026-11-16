@@ -3,12 +3,12 @@ Upstream-Name: NeuroOS Next
 Source: Standalone public-alpha source snapshot
 
 Files: *
-Copyright: [TO BE PROVIDED BY THE PROJECT OWNER]
+Copyright: 2026 DeAtH de FraG
 License: Apache-2.0
  Licensed under the Apache License, Version 2.0.
  On Debian systems the full text is in /usr/share/common-licenses/Apache-2.0.
  A complete copy is also included in the source LICENSE file.
 Comment:
- Apache-2.0 selected explicitly by the project owner. Attribution intentionally
- unfilled; complete before publication. No identity inferred from Git config.
+ Apache-2.0 and the pseudonym DeAtH de FraG explicitly authorized by the owner.
+ No identity inferred from Git configuration.
  External dependencies/weights are not bundled; see THIRD_PARTY_NOTICES.md.
