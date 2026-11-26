@@ -2,7 +2,7 @@
 import argparse,json,os,platform,shutil,subprocess,sys,tarfile,tempfile,time,uuid,io,sqlite3
 from pathlib import Path
 from . import installation as inst
-VERSION='0.1.0-alpha.1'
+VERSION='0.1.0-alpha.2'
 def memory():return {k:int(v.split()[0]) for k,v in (l.split(':',1) for l in Path('/proc/meminfo').read_text().splitlines())}
 def gguf(path):
  p=Path(path)

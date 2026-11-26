@@ -1,18 +1,14 @@
-# Requirements
+# Requirements — 0.1.0-alpha.2
 
-Supported: Debian13 amd64 with systemd and an ordinary logged-in user manager.
-Python>=3.11; Debian13 supplies its supported Python. CPU-only; no GPU required.
-Rootless namespaces, LandlockABI>=3, libseccomp2. Dependencies are in debian/control.
-Optional tmux for layout; --plain works without it. NetworkManager only for its
-read-only device/Wi-Fi observations; not required for file/chat operations.
+Supported packaging target: Debian 13 amd64, CPU-only, Python >=3.11 and an ordinary
+user systemd manager. Rootless user/mount/PID/network namespaces, Landlock ABI >=3
+and libseccomp2 are required; there is no unsafe fallback. tmux is optional.
+NetworkManager is only needed for corresponding read-only observations.
 
-There is no single valid RAM minimum independent of GGUF/context. Software alone
-is small, but the backend must fit the weights, KV cache, working buffers, sandbox
-workers and Linux reserve. Budget at least several GiB for small quantized models;
-9B Q4_K_M is recommended only on16–32GiB machines after admission/real measurement.
-16GiB is not assumed for all testers. Context/output settings are chosen in setup.
-Leave free disk for your GGUF, private SQLite, workspaces and artifacts; no weights
-are inside the small .deb. No automatic multi-GB network transfers occur.
+There is no fixed RAM floor independent of GGUF and context. The model, KV cache,
+working buffers, workers and Linux reserve must fit. Small quantized models need
+several GiB; Qwen3.5 9B Q4_K_M is an optional profile for suitable systems and was
+measured on a single X230, not broadly qualified. No GGUF/backend binary is bundled.
 
-Package build tools: debhelper13,dh-python,dpkg-dev,python3. Network is needed for
-apt dependencies and separately obtaining backend/weights, not normal offline use.
+The Alpha 2 context measurements are one sequential run; see RELEASE_NOTES.md.
+Performance varies with model, context, cache state, CPU and llama.cpp version.

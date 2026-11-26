@@ -19,7 +19,7 @@ A checksum is not an authenticated signature. On a disposable test machine:
 
 ```
 sha256sum -c SHA256SUMS
-sudo apt install ./neuroos_0.1.0~alpha1-1_amd64.deb
+sudo apt install ./neuroos_0.1.0~alpha2-1_amd64.deb
 neuroos setup
 neuroos doctor
 neuroos doctor --probe
@@ -48,7 +48,7 @@ If blocked, correct the reported cause; do not disable security to force a run.
 
 On a build/test machine explicitly install build dependencies:
 `sudo apt install build-essential debhelper dh-python python3`.
-In a clean clone: `packaging/build.sh v0.1.0-alpha.1 /tmp/neuroos-build`.
+In a clean clone: `packaging/build.sh v0.1.0-alpha.2 /tmp/neuroos-alpha2-build`.
 In an extracted source archive: `dpkg-buildpackage -us -uc -b`.
 The resulting .deb is in the build directory's parent. Do not install it over an
 existing development deployment. Run unit tests with:

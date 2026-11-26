@@ -11,7 +11,7 @@ Architecture: amd64
 Depends: ${misc:Depends}, python3 (>= 3.11), bash, systemd, dbus-user-session, util-linux, procps, iproute2, libseccomp2
 Recommends: tmux
 Suggests: network-manager
-Description: local conversational Linux agent (experimental alpha)
+Description: local conversational Linux agent (public alpha)
  Persistent local conversations and tasks, rootless isolated execution,
  controlled publication and independent result checking. A compatible local
  llama.cpp server and separately obtained GGUF are required. No model weights

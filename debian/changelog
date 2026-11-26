@@ -1,7 +1,9 @@
-neuroos (0.1.0~alpha1-1) unstable; urgency=medium
+neuroos (0.1.0~alpha2-1) unstable; urgency=medium
 
-  * Initial standalone public alpha source; Apache-2.0 selected by owner.
-  * Portable runtime and opt-in bounded user backend; no weights or private state.
-  * Clean-system installation qualification remains pending; see VALIDATION.md.
+  * Context Efficiency 002: retain the stable dialogue prefix when the exact
+    tokenizer confirms the bounded prompt still fits.
+  * Compact repeated observation metadata and project delivered object references
+    without removing canonical history or SQLite evidence.
+  * Preserve Alpha 1 model/backend selection, sandbox, publication and verification.
 
- -- NeuroOS release preparation <release@example.invalid>  Mon, 16 Nov 2026 12:00:00 +0000
+ -- NeuroOS release preparation <release@example.invalid>  Thu, 26 Nov 2026 12:00:00 +0000

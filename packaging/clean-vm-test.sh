@@ -30,7 +30,7 @@ read -r confirmed
 checkdir=$(mktemp -d)
 # Metadata-only upgrade tests dpkg lifecycle, not a new runtime/schema migration.
 dpkg-deb -R "$package" "$checkdir/image"
-sed -i 's/^Version: .*/Version: 0.1.0~alpha1-1+upgradecheck1/' "$checkdir/image/DEBIAN/control"
+sed -i 's/^Version: .*/Version: 0.1.0~alpha2-1+upgradecheck1/' "$checkdir/image/DEBIAN/control"
 dpkg-deb --root-owner-group -b "$checkdir/image" "$checkdir/upgrade.deb"
 printf 'Back up selected private config/data first; no paths are deleted by this script. Continue? YES: '
 read -r confirmed

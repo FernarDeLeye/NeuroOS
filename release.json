@@ -1,5 +1,6 @@
 {
-  "version": "0.1.0-alpha.1",
-  "debian_version": "0.1.0~alpha1-1",
+  "version": "0.1.0-alpha.2",
+  "debian_version": "0.1.0~alpha2-1",
+  "development_source_commit": "bc860ed951f49828d501c7d6f4602cee162f4766",
   "source_commit": "recorded by clean Git build"
 }

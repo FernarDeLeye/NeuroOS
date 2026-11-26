@@ -1,4 +1,4 @@
-# Security policy — experimental alpha
+# Security policy — limited public alpha
 
 Do not use this alpha for critical systems, secrets handling, destructive host
 administration or unattended production work. Local execution is not inherently
